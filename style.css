@@ -1,7 +1,8 @@
 *{box-sizing: border-box; margin: 0; padding: 0;}
 
 body{
-  <font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F5F8FA;
 }
 
 .white-text{
@@ -15,6 +16,11 @@ body{
 
 .container70{
   width: 70%;
+  margin: auto;
+}
+
+.container60{
+  width: 60%;
   margin: auto;
 }
 
@@ -117,13 +123,13 @@ float:left;
   top: 50%;
   left:50%;
   transform: translate(-50%,-50%);
-}
-.searchbutton span{
   line-height: 30px;
+  text-align: center;
 }
 
+
 .clearfix:after{
-  content:"";
+  content:" ";
   display: table;
   clear: both;
 }
@@ -162,4 +168,61 @@ nav{
 }
 .text-promo p{
   font-size: 20px;
+}
+
+.img-powerful{
+  width: 15%;
+  margin: 50px auto;
+}
+
+.text-powerful{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.service{
+  margin-top: 35px;
+  background-color: white;
+  border-radius: 5px;
+  height:250px;
+}
+
+.card-service{
+  height: 100%;
+}
+
+.card-service-left{
+  width: 35%;
+  text-align: center;
+}
+.card-service-left > img{
+  margin-top: 20px;
+  width: 60%;
+}
+
+.card-service-right{
+  width: 65%;
+  height: 100%
+}
+
+.card-service-right-text{
+  width: 70%;
+  height: 100%;
+  padding: 30px 0;
+
+}
+
+.button{
+  margin: auto;
+  width: 150px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: orange;
+  color:white;
+  line-height: 30px;
+}
+
+.button::after{
+  content: "Learn More"
 }
