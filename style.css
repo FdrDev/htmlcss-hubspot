@@ -1,0 +1,165 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+body{
+  <font-family: 'Open Sans', sans-serif;
+}
+
+.white-text{
+  color:white;
+}
+
+.container90{
+  width: 90%;
+  margin: auto;
+}
+
+.container70{
+  width: 70%;
+  margin: auto;
+}
+
+.topbar{
+  background-color: #314151;
+
+}
+.h50{
+  height: 50px;
+}
+
+.small-logo img{
+  width: 25px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.small-logo{
+position: relative;
+height: 100%;
+display: inline-block;
+width: 150px;
+float:left;
+}
+
+.stay-left{
+  float: left;
+}
+
+.stay-right{
+  float: right;
+}
+
+.topbar-link{
+  height: 100%;
+  float: left;
+}
+
+.topbar-link ul, .topbar-link li{
+  height: 100%;
+  line-height: 50px;
+  list-style-type: none;
+  display: inline-block;
+
+}
+
+.topbar li{
+  padding: 0 5px;
+}
+
+.stay-right>*{
+  line-height: 50px;
+}
+
+#search-top{
+  border-right: 1px solid red;
+  padding: 0 10px;
+}
+
+.middletopbar{
+  background-color: #F5F8FA
+}
+
+
+.middletopbar>*{
+  line-height: 50px;
+}
+
+.language{
+  height: 50px;
+  padding: 0 10px;
+}
+
+#separatore{
+  border-right: 1px solid black;
+  padding: 0 15px;
+}
+
+#tel{
+  padding: 0 15px;
+}
+
+.fixsearchbutton{
+  position: relative;
+  width: 150px;
+}
+
+.searchbutton{
+  display: inline-block;
+  height: 30px;
+  width: 100px;
+  color: white;
+  background: orange;
+  border: 1px solid grey;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+}
+.searchbutton span{
+  line-height: 30px;
+}
+
+.clearfix:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+.logo, .link{
+  height: 50px;
+  width:50px;
+  background-color: red;
+}
+
+nav{
+  height: 50px;
+}
+
+.promo{
+  background: linear-gradient(to right, rgba(0,154,182,1) 0%,rgba(124,208,221,1) 98%);
+  width: 100vw;
+  height: 620px;
+  background-image: url('img/bkg-promo.png');
+  background-size: cover;
+}
+
+.text-content{
+  width: 50%;
+  height: 500px;
+  position: relative;
+}
+.text-promo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.text-promo h1{
+  font-size: 60px;
+}
+.text-promo p{
+  font-size: 20px;
+}
