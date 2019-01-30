@@ -3,6 +3,7 @@
 body{
   font-family: 'Open Sans', sans-serif;
   background-color: #F5F8FA;
+  color: #33475b;
 }
 
 .white-text{
@@ -74,7 +75,7 @@ float:left;
   padding: 0 5px;
 }
 
-.stay-right>*{
+.navright.stay-right>*{
   line-height: 50px;
 }
 
@@ -203,14 +204,8 @@ nav{
 
 .card-service-right{
   width: 65%;
-  height: 100%
-}
-
-.card-service-right-text{
-  width: 70%;
   height: 100%;
-  padding: 30px 0;
-
+  position:relative;
 }
 
 .button{
@@ -221,8 +216,114 @@ nav{
   background-color: orange;
   color:white;
   line-height: 30px;
+  text-align: center;
 }
 
 .button::after{
   content: "Learn More"
+}
+
+.card-service-right-text{
+  width: 70%;
+  padding: 30px 0;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%,-50%);
+}
+
+.card-service-right-text > p{
+margin-top: 15px;
+}
+
+#features::after{
+  content: 'EEEEEEEEEEEEEEEEEEEEEEEEE';
+  color: white;
+  height: 2px;
+  border-bottom: 1px solid grey;
+  width: 100%;
+}
+
+.card-service-right-text li {
+  display: inline-block;
+  padding: 0 15px;
+  list-style-type: none;
+}
+
+.colonna{
+  width:30%;
+  background-color: white;
+  border-radius: 5px;
+  margin: 50px 1.2%;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 11px #eaf0f6;
+}
+
+.colonna>hr{
+  width:70%;
+  margin: 3px auto;
+}
+
+.table{
+  background: linear-gradient(to right, rgba(0,154,182,1) 0%,rgba(124,208,221,1) 98%);
+  width: 100vw;
+  height: 1000px;
+  position: relative;
+}
+
+.message{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.grid{
+  margin-top: 50px;
+}
+
+.quadrato{
+  float: left;
+  width: 25%;
+  height: 170px;
+  border: 1px solid white;
+  text-align: center;
+  position: relative;
+}
+
+.contenuto{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+#square1{
+    border-top: none;
+    border-left: none;
+}
+
+#square2 , #square3{
+    border-top: none;
+}
+
+#square4{
+    border-top: none;
+    border-right: none;
+}
+
+#square5{
+    border-left: none;
+    border-bottom: none;
+}
+
+#square6 , #square7{
+  border-bottom: none;
+}
+
+#square8{
+  border-right: none;
+  border-bottom: none;
 }
