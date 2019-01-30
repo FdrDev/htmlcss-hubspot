@@ -96,7 +96,7 @@ body{
   line-height: 50px;
 }
 
-.language{
+.language-select{
   height: 50px;
   padding: 0 10px;
 }
@@ -403,5 +403,61 @@ margin-top: 15px;
 }
 
 footer{
-  background-color: #34495B
+  background-color: #34495B;
+  color:#efefef;
+}
+
+.footercol{
+  width: 23%;
+  margin: 1%;
+}
+
+.footercol span{
+  font-weight: 900;
+}
+
+
+.footercol li{
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+.mt80{
+  margin-top: 80px;
+}
+
+#footerbtn{
+  margin: 0;
+  width: auto;
+  background-color:#EBEDEF;
+  color:  #34495B;
+}
+
+#footerbtn::after{
+  content:"Contact HubSpot Support"
+}
+.social{
+  margin-top: 25px;
+}
+
+.social *{
+  font-size: 25px;
+  margin: 10;
+  padding: 0 10px;
+}
+
+.language{
+  width: 70%;
+  margin: 25px auto;
+  text-align: center;
+}
+
+.language a , .legal a{
+  text-decoration: none;
+  color: inherit;
+  padding: 0 50px;
+}
+
+.endfooter , .endfooter *{
+  margin-top: 15px;
 }
