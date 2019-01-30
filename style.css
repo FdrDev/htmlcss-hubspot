@@ -36,18 +36,14 @@ body{
 .small-logo img{
   width: 25px;
   display: inline-block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .small-logo{
-position: relative;
-height: 100%;
-display: inline-block;
-width: 150px;
-float:left;
+  position: relative;
+  height: 100%;
+  display: inline-block;
+  width: 150px;
+  float:left;
 }
 
 .stay-left{
@@ -56,6 +52,13 @@ float:left;
 
 .stay-right{
   float: right;
+}
+
+.staycenter{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
 }
 
 .topbar-link{
@@ -120,10 +123,6 @@ float:left;
   background: orange;
   border: 1px solid grey;
   border-radius: 5px;
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
   line-height: 30px;
   text-align: center;
 }
@@ -158,10 +157,6 @@ nav{
   position: relative;
 }
 .text-promo{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 100%;
 }
 .text-promo h1{
@@ -255,9 +250,6 @@ margin-top: 15px;
   background-color: white;
   border-radius: 5px;
   margin: 50px 1.2%;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-  box-shadow: 0 0 11px #eaf0f6;
 }
 
 .colonna>hr{
@@ -274,10 +266,6 @@ margin-top: 15px;
 
 .message{
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
 }
 
 .grid{
@@ -293,12 +281,6 @@ margin-top: 15px;
   position: relative;
 }
 
-.contenuto{
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
-}
 
 #square1{
     border-top: none;
@@ -326,4 +308,100 @@ margin-top: 15px;
 #square8{
   border-right: none;
   border-bottom: none;
+}
+
+.customer-text h4{
+  font-size: 35px;
+}
+
+.customer-text p{
+  width: 100%;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+
+.n-customer{
+  width: 30%;
+  height: 200px;
+  position: relative;
+}
+
+.gridcompanies{
+  width: 70%;
+  height: 200px;
+  position: relative;
+}
+
+.companies-container{
+  width: 100%;
+}
+
+.companies{
+  float: left;
+  width: 25%;
+  height: 50px;
+  position: relative;
+}
+
+.cta{
+  margin-top: 50px;
+  background-color: white;
+}
+
+.lastcta{
+  height: 800px;
+  position:relative;
+}
+
+.ctatextfix{
+  width: 40%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.textcta{
+  width: 100%;
+}
+
+.textcta *{
+  padding: 20px 0;
+}
+
+.textcta h2{
+  font-size: 30px;
+}
+
+.textcta span{
+  font-size: 12px;
+}
+
+.gethubspot{
+  width: 200px;
+  height: 60px;
+  background-color: orange;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+  border-radius: 5px;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+.imagecta{
+  width: 60%;
+  height: 100%;
+  position: relative;
+}
+
+.imagecta img{
+  position: absolute;
+  top: 50%;
+  left:65%;
+  transform: translate(-50%, -50%);
+}
+
+footer{
+  background-color: #34495B
 }
