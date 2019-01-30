@@ -1,7 +1,7 @@
 *{box-sizing: border-box; margin: 0; padding: 0;}
 
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open-sans', sans-serif;
   background-color: #F5F8FA;
   color: #33475b;
 }
@@ -88,7 +88,10 @@ body{
 }
 
 .middletopbar{
-  background-color: #F5F8FA
+  background-color: #F5F8FA;
+  position: sticky;
+  top:0;
+  z-index: 100;
 }
 
 
@@ -133,15 +136,37 @@ body{
   display: table;
   clear: both;
 }
-.logo, .link{
-  height: 50px;
-  width:50px;
-  background-color: red;
+
+.logo{
+  position:relative;
+  height: 80px;
+  width: 160px;
+
+}
+
+.link{
+  position: relative;
+  height: 0px;
+  line-height: 80px;
+}
+
+.link li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 15px;
 }
 
 nav{
-  height: 50px;
+  height: 80px;
+  background-color: white;
 }
+
+.navbar.stay-left{
+  position:relative;
+  height: 100%;
+  width: 40%;
+}
+
 
 .promo{
   background: linear-gradient(to right, rgba(0,154,182,1) 0%,rgba(124,208,221,1) 98%);
@@ -246,15 +271,27 @@ margin-top: 15px;
 }
 
 .colonna{
-  width:30%;
+  width:calc((100% / 3) - (80px / 3)); /*questo ve l'ho rubato*/
   background-color: white;
   border-radius: 5px;
   margin: 50px 1.2%;
+  padding: 30px;
 }
 
 .colonna>hr{
   width:70%;
-  margin: 3px auto;
+  margin: 10px auto;
+}
+
+.colonna img{
+  display: block;
+  height: 150px;
+  margin: auto;
+}
+
+.colonna h3{
+  text-align: center;
+  margin: 25px auto;
 }
 
 .table{
@@ -345,7 +382,6 @@ margin-top: 15px;
 }
 
 .cta{
-  margin-top: 50px;
   background-color: white;
 }
 
